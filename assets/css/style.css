@@ -191,7 +191,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/knihy-pre-narocnych-citatelov-1920x1024.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -253,12 +253,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     color: #3c4258;
     text-transform: initial;
     line-height: 1.8;
+    text-align: center;
 }
 .single-about-txt p {
     font-size: 16px;
     color: #999fb3;
     padding: 35px 0 43px;
-    border-bottom: 1px solid #999fb3;
+
 }
 .single-about-add-info {
     margin: 35px 0;
@@ -853,4 +854,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
+
+
+
+
