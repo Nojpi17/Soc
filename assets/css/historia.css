@@ -307,7 +307,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background:url(../images/slovenski-autori-a-ich-diela-ktore-zmenili-pohlad-na-literaturu.jpg)no-repeat;
     background-size:cover;
     background-position: center;
-    height:890px;
+    height:100vh;
 }
 .welcome-hero:before{
     position:absolute;
@@ -987,4 +987,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 
 
+#main-navbar {
+    position: fixed;
+    top: -100px; /* Initially hide the navbar off-screen */
+    width: 100%;
+    transition: top 0.3s; /* Smooth transition for showing and hiding */
+    /* Add other styling as needed */
+}
 
