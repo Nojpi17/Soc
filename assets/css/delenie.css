@@ -987,4 +987,17 @@ transform: translateX(-110px) rotateX(90deg); /* Corrected */
 
     }
 
+    .boxo-link {
+        text-decoration: none; /* Removes underline from links */
+        color: inherit; /* Inherits text color from parent */
+    }
+
+
+    .navbar-brand i.fas.fa-arrow-left {
+        font-size: 24px; /* Adjust the size as needed */
+        color: #000; /* Change the color as needed */
+    }
+
+
+
     
