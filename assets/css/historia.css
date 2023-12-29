@@ -236,7 +236,7 @@ nav.navbar.bootsnav {
     color: #d92cf9;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0px 57px;
+    padding: 40px 0px 57px;
     text-transform: uppercase;
 }
 /*.navbar-brand*/
@@ -995,3 +995,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     /* Add other styling as needed */
 }
 
+
+
+u{
+    font-size: 35px;
+cursor: pointer;
+position: absolute;
+top: 43px;
+left: 25%;
+transform: translate(-50%, -50%);
+color: #d92cf9;
+
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+nav {
+padding-left: 10px; /* Adjust this value as needed */
+}
