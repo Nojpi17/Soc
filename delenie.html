@@ -210,36 +210,50 @@
 
 
 
-	<section class="about">
-		<div class="section-heading text-center">
-			<form onsubmit="handleFormSubmission(event)" method="post">
-				<h3>Vyberte žánre, ktoré máte radi:</h3>
-				<!-- Checkboxy pre rôzne žánre -->
+	<div class="form-container">
+		<form onsubmit="handleFormSubmission(event)" method="post">
+			<h3>Vyberte žánre, ktoré máte radi:</h3>
+			
+			<div class="checkbox-group">
+				<!-- Existing genres -->
 				<input type="checkbox" id="fantasy" name="genre[]" value="Fantasy">
-				<label for="fantasy">Fantasy</label><br>
-				<!-- Ostatné checkboxy... -->
-				<input type="checkbox" id="sci-fi" name="genre[]" value="Sci-Fi">
-				<label for="sci-fi">Sci-Fi</label><br>
-			
-				<input type="checkbox" id="mystery" name="genre[]" value="Mystery">
-				<label for="mystery">Mystery</label><br>
-			
-				<input type="checkbox" id="romance" name="genre[]" value="Romance">
-				<label for="romance">Romance</label><br>
-			
-				<input type="checkbox" id="thriller" name="genre[]" value="Thriller">
-				<label for="thriller">Thriller</label><br>
-			
-
-				<input type="submit" value="Odoslať">
-			</form>
-			<div id="book-recommendation"></div>
-		</div>
-	</section>
+				<label for="fantasy">Fantasy</label>
 	
-
-
-
+				<input type="checkbox" id="sci-fi" name="genre[]" value="Sci-Fi">
+				<label for="sci-fi">Sci-Fi</label>
+	
+				<input type="checkbox" id="horror" name="genre[]" value="Horror">
+				<label for="horror">Horror</label>
+	
+				<input type="checkbox" id="adventure" name="genre[]" value="Adventure">
+				<label for="adventure">Adventure</label>
+	
+				<input type="checkbox" id="non-fiction" name="genre[]" value="Non-Fiction">
+				<label for="non-fiction">Non-Fiction</label>
+	
+				<input type="checkbox" id="historical-fiction" name="genre[]" value="Historical Fiction">
+				<label for="historical-fiction">Historical Fiction</label>
+	
+				<input type="checkbox" id="mystery" name="genre[]" value="Mystery">
+				<label for="mystery">Mystery</label>
+	
+				<input type="checkbox" id="romance" name="genre[]" value="Romance">
+				<label for="romance">Romance</label>
+	
+				<input type="checkbox" id="thriller" name="genre[]" value="Thriller">
+				<label for="thriller">Thriller</label>
+	
+				<!-- New genre: Real Stories -->
+				<input type="checkbox" id="real-stories" name="genre[]" value="Real Stories">
+				<label for="real-stories">Real-Stories</label>
+			</div>
+	
+			<input type="submit" value="Odoslať">
+		</form>
+		<div id="book-recommendation"></div>
+	</div>
+	
+	
 
 
 
