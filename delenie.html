@@ -39,7 +39,6 @@
 
 
 </head>
-
 <body>
 
 	<header class="top-area">
@@ -206,14 +205,19 @@
 
 	</section>
 
+	
+
+
+
+
 	<section class="about">
 		<div class="section-heading text-center">
-			<form action="/assets/php/openai.php" method="post">
+			<form onsubmit="handleFormSubmission(event)" method="post">
 				<h3>Vyberte žánre, ktoré máte radi:</h3>
-				
+				<!-- Checkboxy pre rôzne žánre -->
 				<input type="checkbox" id="fantasy" name="genre[]" value="Fantasy">
 				<label for="fantasy">Fantasy</label><br>
-			
+				<!-- Ostatné checkboxy... -->
 				<input type="checkbox" id="sci-fi" name="genre[]" value="Sci-Fi">
 				<label for="sci-fi">Sci-Fi</label><br>
 			
@@ -226,17 +230,13 @@
 				<input type="checkbox" id="thriller" name="genre[]" value="Thriller">
 				<label for="thriller">Thriller</label><br>
 			
+
 				<input type="submit" value="Odoslať">
 			</form>
-			
+			<div id="book-recommendation"></div>
 		</div>
 	</section>
-
-
-
-
-
-
+	
 
 
 

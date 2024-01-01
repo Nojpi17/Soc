@@ -1,6 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $genres = isset($_POST['genre']) ? $_POST['genre'] : [];
+echo "Ako sa maš"
 
     // Pripojte sa ku OpenAI API a odporučte knihu
     $prompt = "Recommend a book based on these genres: " . implode(", ", $genres);
