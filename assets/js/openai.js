@@ -7,10 +7,10 @@ function handleFormSubmission(event) {
         genres.push(checkbox.value);
     });
 
-    const apiKey = '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'; // Využite bezpečné uloženie API kľúča
+    const apiKey = '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'; // Využite bezpečné uloženie API kľúča
 
     const requestData = {
-        prompt: 'Odporučte knihu založenú na týchto žánroch (iba jednu knihu): Napiš to vo formate názov-diela autor ' + genres.join(', '),
+        prompt: 'Recommend one book based on these genres: Write it in the format author: title_of_work' + genres.join(', '),
         max_tokens: 50
     };
 
