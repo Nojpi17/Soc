@@ -1,3 +1,4 @@
+
 function handleFormSubmission(event) {
     event.preventDefault();
 
@@ -7,14 +8,15 @@ function handleFormSubmission(event) {
         genres.push(checkbox.value);
     });
 
-    const apiKey = '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'; // Využite bezpečné uloženie API kľúča
+    const apiKey = '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'; // Nahraďte 'YOUR_API_KEY' vaším API kľúčom
 
     const requestData = {
+        model: "gpt-3.5-turbo-instruct", // Aktualizovaný názov modelu
         prompt: 'Recommend one book based on these genres: Write it in the format author: title_of_work' + genres.join(', '),
         max_tokens: 50
     };
 
-    fetch('https://api.openai.com/v1/engines/text-davinci-002/completions', {
+    fetch('https://api.openai.com/v1/completions', { // Aktualizovaná URL
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -25,8 +27,11 @@ function handleFormSubmission(event) {
     .then(response => response.json())
     .then(data => {
         console.log('API Response:', data);
-        // Aktualizácia DOM - príklad
-        document.getElementById('book-recommendation').textContent = data.choices[0].text;
+        if (data.choices && data.choices.length > 0) {
+            document.getElementById('book-recommendation').textContent = data.choices[0].text;
+        } else {
+            console.error('Nenájdené žiadne dáta v odpovedi API');
+        }
     })
     .catch(error => {
         console.error('Error:', error);
