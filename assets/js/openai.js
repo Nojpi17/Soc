@@ -8,11 +8,11 @@ function handleFormSubmission(event) {
         genres.push(checkbox.value);
     });
 
-    const apiKey = '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'; // Nahraďte 'YOUR_API_KEY' vaším API kľúčom
+    const apiKey = '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'; // Nahraďte 'YOUR_API_KEY' vaším API kľúčom
 
     const requestData = {
         model: "gpt-3.5-turbo-instruct", // Aktualizovaný názov modelu
-        prompt: 'Recommend one book based on these genres: Write it in the format author: title_of_work' + genres.join(', '),
+        prompt: 'Recommend one book based on these genres: Write it in the format author title_of_work' + genres.join(', '),
         max_tokens: 50
     };
 
