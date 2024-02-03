@@ -8,7 +8,7 @@ function handleFormSubmission(event) {
         genres.push(checkbox.value);
     });
 
-    const apiKey = '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'; // Nahraďte 'YOUR_API_KEY' vaším API kľúčom
+    const apiKey = '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'; // Nahraďte 'YOUR_API_KEY' vaším API kľúčom
 
     const requestData = {
         model: "gpt-3.5-turbo-instruct", // Aktualizovaný názov modelu
