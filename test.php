@@ -58,7 +58,7 @@
 			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 			                    <i class="fa fa-bars"></i>
 			                </button>
-			                <a class="navbar-brand" href="index.html">knowlit</a>
+			                <a class="navbar-brand" href="index.html">SOČ</a>
 			            </div>
 
 						<u class="bi bi-brightness-high-fill" id="toggleDark"></u>
@@ -165,49 +165,82 @@
 		
 		
 		
-		<div class="form-container">
-			<form onsubmit="handleFormSubmission(event)" method="post">
-				<h3>Hľadáte knihu pre svojich blízkych, ale neviete, ktorú vybrať?</h3>
-				<h3>Nechajte sa inšpirovať! Stačí uviesť žánre, ktoré vaši blízki radi čítajú, a umelá inteligencia vám poskytne odporúčania.</h3>
-				
-				<div class="checkbox-group">
-					<!-- Existing genres -->
-					<input type="checkbox" id="fantasy" name="genre[]" value="Fantasy">
-					<label for="fantasy">Fantasy</label>
-		
-					<input type="checkbox" id="sci-fi" name="genre[]" value="Sci-Fi">
-					<label for="sci-fi">Sci-Fi</label>
-		
-					<input type="checkbox" id="horror" name="genre[]" value="Horror">
-					<label for="horror">Horror</label>
-		
-					<input type="checkbox" id="adventure" name="genre[]" value="Adventure">
-					<label for="adventure">Adventure</label>
-		
-					<input type="checkbox" id="non-fiction" name="genre[]" value="Non-Fiction">
-					<label for="non-fiction">Non-Fiction</label>
-		
-					<input type="checkbox" id="historical-fiction" name="genre[]" value="Historical Fiction">
-					<label for="historical-fiction">Historical Fiction</label>
-		
-					<input type="checkbox" id="mystery" name="genre[]" value="Mystery">
-					<label for="mystery">Mystery</label>
-		
-					<input type="checkbox" id="romance" name="genre[]" value="Romance">
-					<label for="romance">Romance</label>
-		
-					<input type="checkbox" id="thriller" name="genre[]" value="Thriller">
-					<label for="thriller">Thriller</label>
-		
-					<!-- New genre: Real Stories -->
-					<input type="checkbox" id="real-stories" name="genre[]" value="Real Stories">
-					<label for="real-stories">Real-Stories</label>
+		<section id="education" class="">
+			<div class="section-heading text-center">
+				<h2>Plany do buducna </h2>
+			</div>
+			<div class="container">
+				<div class="education-horizontal-timeline">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>8.1.2024</h2>
+									<h3>Dokončenie stránky.</h3>
+								</div>
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+									
+										
+										<p class="description">
+                                            Stránka je plne funkčna ale ešte ma svoje chyby do 8.1.2024 chceme opraviť všetky chyby. 										</p>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>31.1.2024</h2>
+									<h3>Chceme krátke videa na jednotlive temy (historiu literatury) </h3>
+								</div>
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										
+										
+										<p class="description">
+											Na stránku pridame kratke videa k jednotlivým literarnym obdobiam. Na videach sa už pracuje a na stranku budu pridane 31.1.2024
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>15.2.2024</h2>
+									<h3>Dorobenie podstranky O autoroch</h3>
+								</div>
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal spacial-horizontal-line"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+									
+											
+										
+										<p class="description">
+											Na stranku pridáme podstranku o autorch kde sa dosviete nové informacie o známych autoroch.
+										</p>
+									</div>
+								</div>
+						</div>
+					</div>
 				</div>
+			</div>
+
+		</section>
 		
-				<input type="submit" value="Odoslať">
-			</form>
-			<div id="book-recommendation"></div>
-		</div>
 
 		
 	
@@ -288,11 +321,11 @@
 										</div>
 										<div class="single-contact-add-info">
 											<h3>Email</h3>
-											<p>knowlit@gmail.com</p>
+											<p>oksamuelneupauer@gmail.com</p>
 										</div>
 										<div class="single-contact-add-info">
 											<h3>Webová stránka</h3>
-											<p>www.knowlit.sk</p>
+											<p>www.soc.sk</p>
 										</div>
 									</div>
 								</div>
@@ -311,7 +344,7 @@
 		
 
 		<div class="footer">
-			<p>&copy; 2024 knowlit. Všetky práva vyhradené.</p>
+			<p>&copy; 2023 SOČ. Všetky práva vyhradené.</p>
 		</div>
 		
 		
