@@ -68,7 +68,12 @@ p {
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 }
-img{border:none;max-width:100%; height:auto;}
+img{border:none;max-width:100%; height:auto;
+    
+
+
+
+}
 ul{
 	padding: 0;
     margin: 0 auto;
@@ -960,17 +965,4 @@ font-size: 16px;
 
 form input[type="submit"]:hover {
 background-color: #0056b3;
-}
-
-
-.obrs {
-    background-position: center center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
-.obrs-img {
-    width: 100%; /* Zabezpečí, aby obrázok zaberával 100% šírky rodičovského kontajnera */
-    height: auto; /* Udržuje pomer strán obrázka */
 }
